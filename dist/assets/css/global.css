@@ -1,0 +1,66 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.max-width-col td {
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 250px;
+    text-overflow: ellipsis;
+}
+
+.v-data-table .v-data-table__wrapper {
+    height: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    .fixed-row {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 48px;
+        z-index: 1;
+        background-color: white;
+    }
+}
+
+table .Merchant,
+table .Individu {
+    background-color: #fb8c00 !important;
+}
+
+table .Outlet {
+    background-color: #7cb342 !important;
+}
+
+table .Badan_Usaha {
+    background-color: #e53935 !important;
+}
+
+.v-list-item-group .v-list-item--active {
+    background-color: white !important;
+    color: #b71c1c !important;
+}
+
+.v-breadcrumbs {
+    padding: 0 10px 0 10px;
+}
+
+.theme--light.v-app-bar.v-toolbar.v-sheet {
+    background-color: #fff;
+}
+
+#breadcrumb-container {
+    border: #e1e0e0;
+    /* border-style: solid; */
+    border-width: thin;
+    border-right: none;
+    border-left: none;
+    margin: 0px 20px 0px 20px !important;
+}
